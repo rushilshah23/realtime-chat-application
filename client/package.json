@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "socket.io-client": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/react": "*",
+    "eslint": "*",
+    "eslint-config-next": "*",
+    "typescript": "*"
+  }
+}
